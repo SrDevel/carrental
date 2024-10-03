@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <div className="bg-gray-800 text-white text-center p-4">
+        <div className="bg-gray-800 text-white text-center p-4 mt-4">
             <p>&copy; {new Date().getFullYear()} Mi Empresa. Todos los derechos reservados.</p>
             <div>
                 <a href="/about" className="text-gray-400 hover:text-white">Acerca de</a>

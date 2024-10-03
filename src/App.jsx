@@ -8,6 +8,8 @@ import Footer from "./components/Footer";
 import Locations from "./pages/Locations";
 import CustomerSupport from "./pages/CustomerSupport";
 import Blog from "./pages/Blog";
+import LogIn from "./pages/LogIn";
+import SignIn from "./pages/SignIn";
 function App() {
     return (
         <>
@@ -19,6 +21,8 @@ function App() {
                 <Route path="/locations" element={<Locations />} />
                 <Route path="/customer-support" element={<CustomerSupport />} />
                 <Route path="/blog" element={<Blog />} />
+                <Route path="/login" element={<LogIn />} />
+                <Route path="/signin" element={<SignIn />} />
             </Routes>
             <Footer />
         </>
